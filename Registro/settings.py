@@ -77,11 +77,17 @@ WSGI_APPLICATION = 'Registro.wsgi.application'
 
 DATABASES = {
     'default': {
+        # 'ENGINE': 'django.db.backends.mysql',
+        # 'NAME': 'registro',
+        # 'USER': 'root',
+        # 'PASSWORD': '',
+        # 'HOST': 'localhost',
+        # 'PORT':  '3308'
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'Teranger23$registro',
         'USER': 'Teranger23',
         'PASSWORD': 'Password01',
-        'HOST': 'Teranger23.mysql.pythonanywhere-services.com',       
+        'HOST': 'localhost',   
     }
 }
 
